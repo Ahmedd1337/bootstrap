@@ -1,0 +1,286 @@
+.hover01{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.hover01:hover
+{
+    color: #878787;
+    /*color: #ec4d4d;*/
+    transition: all 0.5s;
+}
+header .bg-1
+{
+    background-image: url(../img/bg-image-28.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+header .bg-2
+{
+    background-image: url(../img/bg-image-29.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: inherit;
+    width: inherit;
+}
+.size01
+{
+    font-size: 100px;
+}
+
+
+
+
+
+.hoverbtn
+{
+    transition: all 0.3s;
+}
+
+.hoverbtn:hover
+{
+    background-color: white;
+    transition: all 0.3s;
+    color: black;
+    transform: translateY(-10%);
+}
+.hoverbtn01
+{
+    transition: all 0.3s;
+}
+
+.hoverbtn01:hover
+{
+    background-color: #01d5ff;
+    transition: all 0.3s;
+    transform: translateY(-10%);
+}
+.hoverarrow
+{
+    transition: all 0.5s;
+    color: white;
+}
+.hoverarrow:hover
+{
+    transition: all 0.5s;
+    background-color: white;
+    color: black;
+}
+.hoverbtn02{
+    font-size: 13px;
+    transition: all ease-in-out 0.5s;
+    padding-inline: 2%;
+    padding-block: 1%;
+}
+.hoverbtn02:hover
+{
+    background-color: black;
+    transition: all ease-in-out 0.5s;
+}
+
+section .anime span::after{
+    content: '';
+    content: '|';
+    animation: typing 5s infinite;
+}
+@keyframes typing {
+    0%{content: '|';}
+    2%{content: 'A|';}
+    4%{content: 'Ap|';}
+    7%{content: 'App|';}
+    10%{content: 'Apps|';}
+    12%{content: 'App|';}
+    14%{content: 'Ap|';}
+    16%{content: 'A|';}
+    20%{content: '|';}
+    22%{content: 'W|';}
+    24%{content: 'We|';}
+    25.5%{content: 'Web|';}
+    27%{content: 'Webs|';}
+    28.5%{content: 'Websi|';}
+    30%{content: 'Websit|';}
+    31.5%{content: 'Website|';}
+    33%{content: 'Websites|';}
+    35%{content: 'Website|';}
+    37%{content: 'Websit|';}
+    39%{content: 'Websi|';}
+    40%{content: 'Webs|';}
+    42%{content: 'Web|';}
+    44%{content: 'We|';}
+    46%{content: 'W|';}
+    50%{content: '|';}
+    54%{content: 'S|';}
+    56%{content: 'So|';}
+    58%{content: 'Sof|';}
+    60%{content: 'Soft|';}
+    62%{content: 'Softw|';}
+    64%{content: 'Softwa|';}
+    66%{content: 'Softwar|';}
+    68%{content: 'Software|';}
+    70%{content: 'Softwares|';}
+    72%{content: 'Software|';}
+    74%{content: 'Softwar|';}
+    76%{content: 'Softwa|';}
+    78%{content: 'Softw|';}
+    80%{content: 'Soft|';}
+    82%{content: 'Sof|';}
+    84%{content: 'So|';}
+    90%{content: 'S|';}
+    92%{content: '|';}
+    
+}
+.font01 h2
+{
+    font-size: 6rem;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: #f4f4f4f4;
+}
+.font01 h3
+{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.main-img{
+    position: relative;
+}
+.overlay
+{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 195, 218, 0.9);
+    overflow: hidden;
+    width: 100%;
+    opacity: 0;
+    height: 90%;
+    transition: 0.2s ease-in-out;
+}
+.main-img:hover .overlay
+{
+    height: 100%;
+    opacity: 100%;
+}
+.bg-3
+{
+    background-color: #626262;
+}
+
+.font02 h2
+{
+    font-size: 6rem;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: #757575;
+}
+.font02 h3
+{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.font03 h2
+{
+    font-size: 6rem;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: #6B6B6B;
+    opacity: 30%;
+}
+.font03 h3
+{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+#pricing .container .dollar span{
+    position: relative;
+    font-size: 24px;
+}
+#pricing .container .dollar span::before
+{
+    content: '$';
+    position: absolute;
+    font-size: 16px;
+    right: 100%;
+
+}
+#pricing .container .dollar .dollar01::before
+{
+    content: '$';
+    position: absolute;
+    font-size: 16px;
+    right: 100%;
+
+}
+.btnSize{
+    border: none;
+}
+#pricing
+{
+    background-color: #F7F7F7;
+}
+
+
+
+#testmonial
+{
+    background-color:#F7F7F7;
+}
+#testmonial .test01
+{
+    width: 100px;
+    border-radius: 50%;
+    transform: translateY(-45%);
+}
+.rad .carousel-indicators [data-bs-target]{
+    height:10px;
+    width: 10px;
+    border-radius: 50%;
+}
+#testmonial .position01{
+    position: absolute;
+    top: 40%;
+    left: -10%;
+}
+#testmonial .hoverarrow01{
+    color: lightgray;
+    transition: all 0.3s ease-in-out;
+
+}
+#testmonial .hoverarrow01:hover{
+    color: rgb(0, 174, 255);
+    transform: translateX(-10%);
+    transition: all 0.3s ease-in-out;
+}
+#testmonial .hoverarrow02{
+    color: lightgray;
+    transition: all 0.33s ease-in-out;
+
+}
+#testmonial .hoverarrow02:hover{
+    color: rgb(0, 174, 255);
+    transform: translateX(10%);
+    transition: all 0.3s ease-in-out;
+}
+
+
+#testmonial .position02{
+    position: absolute;
+    top: 40%;
+    right: -10%;
+}
+.font03 h2
+{
+    font-size: 6rem;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: #757575;
+}
+.font03 h3
+{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
